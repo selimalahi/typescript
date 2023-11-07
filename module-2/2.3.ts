@@ -30,7 +30,9 @@ const user: GenericArray<{name: string; age: number}> = [{
  
 
 
-}]
+},
+
+];
 
 const add= (x: number, y: number) => x+y
 
@@ -39,7 +41,7 @@ add(30, 20);
 
 
 //  generic tuple 
-
+ 
 type GenericTuple<X,Y> = [X, Y];
 
 const maunush: GenericTuple<string, string> = ['mr.x', 'mr.y'];
