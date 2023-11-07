@@ -39,15 +39,21 @@ const addCourseToStudent =<T>(student: T) =>{
     return {
         ...student,
         course
-    }
-}
+    };
+};
 
 
-const student1 = addCourseToStudent({name: "mr.x", email: 'x@gmail', 
-devType:'Nudd'});
+const student1 = addCourseToStudent({
+    name: "mr.x",
+    email: 'x@gmail', 
+    devType:'Nudd',
+});
 
-const student2 = addCourseToStudent({name: "mr.y", email: 'y@gmail', 
-haswatch:'Apple'});
+const student2 = addCourseToStudent({
+    name: "mr.y",
+    email: 'y@gmail', 
+    haswatch:'Apple',
+});
 
 
 
